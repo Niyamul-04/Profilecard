@@ -6,21 +6,20 @@ font-family: 'Times New Roman', Times, serif;
 }
 
 body{
-    min-height:90vh;
+    min-height:100vh;
     display:flex;
     justify-content:center;
-    align-items:center;
-    padding:40px;
+    align-items:flex-start;
+    padding:10px 10px;
     background:#f5f5f5;
 }
 
 .container{
-    width:80%;
-    max-width:750px;
-    margin:0 auto;
+    width:min(90%, 750px);
+    min-height:600px;
+    padding:50px;
     background:white;
     border:3px solid #17330b;
-    padding:50px;
     border-radius:10px;
 }
 
